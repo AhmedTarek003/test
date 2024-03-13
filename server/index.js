@@ -22,7 +22,7 @@ app.use("/api/users", require("./routes/usersRoute"));
 
 // Invaild route
 app.use("*", (req, res, next) => {
-  next(Error("Invalid route"));
+  next(Error("Invalidggggg route"));
 });
 
 // global error
